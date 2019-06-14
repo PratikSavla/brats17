@@ -1,2 +1,1 @@
 HGG/brats_tcia_pat105_0001
-HGG/brats_tcia_pat111_0001
