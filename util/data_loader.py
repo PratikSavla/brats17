@@ -78,7 +78,7 @@ class DataLoader():
                     break
         assert(volume_name is not None)
         #volume_name = os.path.join(patient_dir, volume_name)
-        volume_name = data/BRATS2015_Training/HGG/brats_tcia_pat105_0001/VSD.Brain.XX.O.MR_T1.35536.mha
+        volume_name = "data/BRATS2015_Training/HGG/brats_tcia_pat105_0001/VSD.Brain.XX.O.MR_T1.35536.mha"
         volume = load_3d_volume_as_array(volume_name)
         return volume, volume_name
 
